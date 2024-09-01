@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Página de la tarea 5 que contiene un video y logos que cambian de color."
+    />
+    <meta name="keywords" content="video, canvas, logo, API de medios" />
+    <meta name="author" content="Axel Huerta Hernández" />
+    <title>Tarea 5</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Tarea 5</h1>
+    <main>
+      <!-- video -->
+      <section id="video-area">
+        <video id="video" controls>
+          <source src="videos/video.mp4" type="video/mp4" />
+          El navegador no soporta video.
+        </video>
+      </section>
+
+      <!-- canvas -->
+      <section id="logo-area">
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <button id="btn-color" title="Solo sí el vídeo esta en reproducción">
+          Cambiar color del logo
+        </button>
+      </section>
+    </main>
+
+    <script src="scripts.js" />
+  </body>
+</html>

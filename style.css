@@ -1,0 +1,59 @@
+/* Axel Huerta Hernández */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #020420;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+h1 {
+  color: #00dc82;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+video {
+  width: 100%;
+}
+
+button {
+  background: #00dc82;
+  border: none;
+  margin: 3em 0;
+  padding: 1em 2em;
+  border-radius: 1em;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#logo-area {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+}
+
+#video-area {
+  width: 100%;
+  max-width: 800px;
+  margin: 2em 0;
+}
+
+/* media query */
+@media (max-width: 1200px) {
+  main {
+    flex-direction: column;
+  }
+}
